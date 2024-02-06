@@ -8,7 +8,7 @@ def test_high_value():
         assert subject.get_highest() == "Second value is higher"
         subject = HighValue(6,6)
         assert subject.get_highest() == "Values are equal"
-    
+
 def test_add():
         subject = HighValue(4,6)
         subject.add(2, "first")
